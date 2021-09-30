@@ -1,0 +1,6 @@
+module Pods_NutriSafe {
+  umbrella header "Pods-NutriSafe-umbrella.h"
+
+  export *
+  module * { export * }
+}

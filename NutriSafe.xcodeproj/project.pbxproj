@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0F1FB3237C6CFC00342A04 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F1FB2237C6CFC00342A04 /* Profile.swift */; };
+		2F0F1FB5237C6D8900342A04 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F1FB4237C6D8900342A04 /* Diet.swift */; };
+		2F485EEC2394CD120050B428 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F485EE72394CCFA0050B428 /* ProfileCell.swift */; };
+		2F485EEE2394CD120050B428 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F485EE92394CD120050B428 /* SelectViewController.swift */; };
+		2F485EEF2394CD120050B428 /* addProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F485EEA2394CD120050B428 /* addProfileViewController.swift */; };
+		2F485EF22394CE100050B428 /* AllergiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F485EF12394CE100050B428 /* AllergiesViewController.swift */; };
+		2F63AAD7238097F900BBA65F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63AAD6238097F900BBA65F /* Photo.swift */; };
+		2F63AADA2380AB4000BBA65F /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63AAD82380AB4000BBA65F /* DetailedViewController.swift */; };
+		2F63AADB2380AB4000BBA65F /* SearchResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F63AAD92380AB4000BBA65F /* SearchResponseViewController.swift */; };
+		2F6671AB237C66650009EC9C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6671AA237C66650009EC9C /* ProfileViewController.swift */; };
+		2F6671AD237C68340009EC9C /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6671AC237C68340009EC9C /* Food.swift */; };
+		2F6D02AD237B24F70039CC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D02AC237B24F70039CC77 /* AppDelegate.swift */; };
+		2F6D02AF237B24F70039CC77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D02AE237B24F70039CC77 /* HomeViewController.swift */; };
+		2F6D02B1237B24F70039CC77 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D02B0237B24F70039CC77 /* SavedViewController.swift */; };
+		2F6D02B4237B24F70039CC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D02B2237B24F70039CC77 /* Main.storyboard */; };
+		2F6D02B6237B24F80039CC77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D02B5237B24F80039CC77 /* Assets.xcassets */; };
+		2F6D02B9237B24F80039CC77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6D02B7237B24F80039CC77 /* LaunchScreen.storyboard */; };
+		2F6D02C4237B24F80039CC77 /* NutriSafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D02C3237B24F80039CC77 /* NutriSafeTests.swift */; };
+		2F6D02CF237B24F80039CC77 /* NutriSafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6D02CE237B24F80039CC77 /* NutriSafeUITests.swift */; };
+		4C672FFA23942E6600BCFE2C /* APIStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C672FF923942E6500BCFE2C /* APIStrings.swift */; };
+		4C672FFC2394355C00BCFE2C /* ProfileUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C672FFB2394355C00BCFE2C /* ProfileUpdateViewController.swift */; };
+		4CD1C66F2380A342002C6412 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1C66E2380A341002C6412 /* Photo.swift */; };
+		ECF9B8EC2FCBAF4D03940598 /* libPods-NutriSafe-NutriSafeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD49C10BEF19F138DFFE819 /* libPods-NutriSafe-NutriSafeTests.a */; };
+		F7EC7D3D67F73D9387FF6DDE /* libPods-NutriSafe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0394BEE8B0E318509A58DF1 /* libPods-NutriSafe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F6D02C0237B24F80039CC77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6D02A1237B24F70039CC77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6D02A8237B24F70039CC77;
+			remoteInfo = NutriSafe;
+		};
+		2F6D02CB237B24F80039CC77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F6D02A1237B24F70039CC77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F6D02A8237B24F70039CC77;
+			remoteInfo = NutriSafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA5EA1CB904DA6B267F757B /* Pods-NutriSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutriSafe.release.xcconfig"; path = "Target Support Files/Pods-NutriSafe/Pods-NutriSafe.release.xcconfig"; sourceTree = "<group>"; };
+		24E4369DEA3FED4D58791C61 /* Pods-NutriSafeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutriSafeTests.debug.xcconfig"; path = "Target Support Files/Pods-NutriSafeTests/Pods-NutriSafeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0F1FB2237C6CFC00342A04 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2F0F1FB4237C6D8900342A04 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
+		2F485EE72394CCFA0050B428 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		2F485EE92394CD120050B428 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		2F485EEA2394CD120050B428 /* addProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addProfileViewController.swift; sourceTree = "<group>"; };
+		2F485EF12394CE100050B428 /* AllergiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllergiesViewController.swift; sourceTree = "<group>"; };
+		2F63AAD6238097F900BBA65F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		2F63AAD82380AB4000BBA65F /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		2F63AAD92380AB4000BBA65F /* SearchResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResponseViewController.swift; sourceTree = "<group>"; };
+		2F6671AA237C66650009EC9C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2F6671AC237C68340009EC9C /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		2F6D02A9237B24F70039CC77 /* NutriSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6D02AC237B24F70039CC77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F6D02AE237B24F70039CC77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2F6D02B0237B24F70039CC77 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		2F6D02B3237B24F70039CC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F6D02B5237B24F80039CC77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F6D02B8237B24F80039CC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F6D02BA237B24F80039CC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6D02BF237B24F80039CC77 /* NutriSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6D02C3237B24F80039CC77 /* NutriSafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriSafeTests.swift; sourceTree = "<group>"; };
+		2F6D02C5237B24F80039CC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6D02CA237B24F80039CC77 /* NutriSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6D02CE237B24F80039CC77 /* NutriSafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriSafeUITests.swift; sourceTree = "<group>"; };
+		2F6D02D0237B24F80039CC77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3392479F917739291BB520C8 /* Pods-NutriSafe-NutriSafeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutriSafe-NutriSafeTests.release.xcconfig"; path = "Target Support Files/Pods-NutriSafe-NutriSafeTests/Pods-NutriSafe-NutriSafeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C672FF923942E6500BCFE2C /* APIStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIStrings.swift; sourceTree = "<group>"; };
+		4C672FFB2394355C00BCFE2C /* ProfileUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileUpdateViewController.swift; sourceTree = "<group>"; };
+		4CD1C66E2380A341002C6412 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		569B4E8DC4E51166FBB83B26 /* Pods-NutriSafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutriSafe.debug.xcconfig"; path = "Target Support Files/Pods-NutriSafe/Pods-NutriSafe.debug.xcconfig"; sourceTree = "<group>"; };
+		8DD49C10BEF19F138DFFE819 /* libPods-NutriSafe-NutriSafeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NutriSafe-NutriSafeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E89B6CAEACEAC259A1D674E /* Pods-NutriSafe-NutriSafeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutriSafe-NutriSafeTests.debug.xcconfig"; path = "Target Support Files/Pods-NutriSafe-NutriSafeTests/Pods-NutriSafe-NutriSafeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0394BEE8B0E318509A58DF1 /* libPods-NutriSafe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NutriSafe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7699854750F54975D5730B /* Pods-NutriSafeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NutriSafeTests.release.xcconfig"; path = "Target Support Files/Pods-NutriSafeTests/Pods-NutriSafeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6D02A6237B24F70039CC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7EC7D3D67F73D9387FF6DDE /* libPods-NutriSafe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6D02BC237B24F80039CC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF9B8EC2FCBAF4D03940598 /* libPods-NutriSafe-NutriSafeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6D02C7237B24F80039CC77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F6D02A0237B24F70039CC77 = {
+			isa = PBXGroup;
+			children = (
+				2F6D02AB237B24F70039CC77 /* NutriSafe */,
+				2F6D02C2237B24F80039CC77 /* NutriSafeTests */,
+				2F6D02CD237B24F80039CC77 /* NutriSafeUITests */,
+				2F6D02AA237B24F70039CC77 /* Products */,
+				FFD53AFE7387DFAEB0EE36AD /* Pods */,
+				E74038D504A8115F808CACD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F6D02AA237B24F70039CC77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D02A9237B24F70039CC77 /* NutriSafe.app */,
+				2F6D02BF237B24F80039CC77 /* NutriSafeTests.xctest */,
+				2F6D02CA237B24F80039CC77 /* NutriSafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F6D02AB237B24F70039CC77 /* NutriSafe */ = {
+			isa = PBXGroup;
+			children = (
+				2F485EF12394CE100050B428 /* AllergiesViewController.swift */,
+				2F6D02AC237B24F70039CC77 /* AppDelegate.swift */,
+				2F6D02AE237B24F70039CC77 /* HomeViewController.swift */,
+				2F63AAD82380AB4000BBA65F /* DetailedViewController.swift */,
+				2F63AAD92380AB4000BBA65F /* SearchResponseViewController.swift */,
+				2F6D02B0237B24F70039CC77 /* SavedViewController.swift */,
+				2F485EEA2394CD120050B428 /* addProfileViewController.swift */,
+				2F485EE72394CCFA0050B428 /* ProfileCell.swift */,
+				2F485EE92394CD120050B428 /* SelectViewController.swift */,
+				2F6D02B2237B24F70039CC77 /* Main.storyboard */,
+				4C672FF923942E6500BCFE2C /* APIStrings.swift */,
+				4CD1C66E2380A341002C6412 /* Photo.swift */,
+				2F6D02B5237B24F80039CC77 /* Assets.xcassets */,
+				2F6D02B7237B24F80039CC77 /* LaunchScreen.storyboard */,
+				2F6D02BA237B24F80039CC77 /* Info.plist */,
+				2F6671AA237C66650009EC9C /* ProfileViewController.swift */,
+				4C672FFB2394355C00BCFE2C /* ProfileUpdateViewController.swift */,
+				2F6671AC237C68340009EC9C /* Food.swift */,
+				2F0F1FB2237C6CFC00342A04 /* Profile.swift */,
+				2F0F1FB4237C6D8900342A04 /* Diet.swift */,
+				2F63AAD6238097F900BBA65F /* Photo.swift */,
+			);
+			path = NutriSafe;
+			sourceTree = "<group>";
+		};
+		2F6D02C2237B24F80039CC77 /* NutriSafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D02C3237B24F80039CC77 /* NutriSafeTests.swift */,
+				2F6D02C5237B24F80039CC77 /* Info.plist */,
+			);
+			path = NutriSafeTests;
+			sourceTree = "<group>";
+		};
+		2F6D02CD237B24F80039CC77 /* NutriSafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D02CE237B24F80039CC77 /* NutriSafeUITests.swift */,
+				2F6D02D0237B24F80039CC77 /* Info.plist */,
+			);
+			path = NutriSafeUITests;
+			sourceTree = "<group>";
+		};
+		E74038D504A8115F808CACD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0394BEE8B0E318509A58DF1 /* libPods-NutriSafe.a */,
+				8DD49C10BEF19F138DFFE819 /* libPods-NutriSafe-NutriSafeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFD53AFE7387DFAEB0EE36AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				569B4E8DC4E51166FBB83B26 /* Pods-NutriSafe.debug.xcconfig */,
+				1AA5EA1CB904DA6B267F757B /* Pods-NutriSafe.release.xcconfig */,
+				24E4369DEA3FED4D58791C61 /* Pods-NutriSafeTests.debug.xcconfig */,
+				FE7699854750F54975D5730B /* Pods-NutriSafeTests.release.xcconfig */,
+				8E89B6CAEACEAC259A1D674E /* Pods-NutriSafe-NutriSafeTests.debug.xcconfig */,
+				3392479F917739291BB520C8 /* Pods-NutriSafe-NutriSafeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F6D02A8237B24F70039CC77 /* NutriSafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6D02D3237B24F80039CC77 /* Build configuration list for PBXNativeTarget "NutriSafe" */;
+			buildPhases = (
+				F0715608AE1329FF69E8DC3E /* [CP] Check Pods Manifest.lock */,
+				2F6D02A5237B24F70039CC77 /* Sources */,
+				2F6D02A6237B24F70039CC77 /* Frameworks */,
+				2F6D02A7237B24F70039CC77 /* Resources */,
+				4CC12907D0436791770107BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriSafe;
+			productName = NutriSafe;
+			productReference = 2F6D02A9237B24F70039CC77 /* NutriSafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F6D02BE237B24F80039CC77 /* NutriSafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6D02D6237B24F80039CC77 /* Build configuration list for PBXNativeTarget "NutriSafeTests" */;
+			buildPhases = (
+				99336899AC7D8D81E420AB8A /* [CP] Check Pods Manifest.lock */,
+				2F6D02BB237B24F80039CC77 /* Sources */,
+				2F6D02BC237B24F80039CC77 /* Frameworks */,
+				2F6D02BD237B24F80039CC77 /* Resources */,
+				B64EB91EC2D6777E7D251567 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F6D02C1237B24F80039CC77 /* PBXTargetDependency */,
+			);
+			name = NutriSafeTests;
+			productName = NutriSafeTests;
+			productReference = 2F6D02BF237B24F80039CC77 /* NutriSafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F6D02C9237B24F80039CC77 /* NutriSafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F6D02D9237B24F80039CC77 /* Build configuration list for PBXNativeTarget "NutriSafeUITests" */;
+			buildPhases = (
+				2F6D02C6237B24F80039CC77 /* Sources */,
+				2F6D02C7237B24F80039CC77 /* Frameworks */,
+				2F6D02C8237B24F80039CC77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F6D02CC237B24F80039CC77 /* PBXTargetDependency */,
+			);
+			name = NutriSafeUITests;
+			productName = NutriSafeUITests;
+			productReference = 2F6D02CA237B24F80039CC77 /* NutriSafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F6D02A1237B24F70039CC77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "apple－pc";
+				TargetAttributes = {
+					2F6D02A8237B24F70039CC77 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2F6D02BE237B24F80039CC77 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F6D02A8237B24F70039CC77;
+					};
+					2F6D02C9237B24F80039CC77 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2F6D02A8237B24F70039CC77;
+					};
+				};
+			};
+			buildConfigurationList = 2F6D02A4237B24F70039CC77 /* Build configuration list for PBXProject "NutriSafe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F6D02A0237B24F70039CC77;
+			productRefGroup = 2F6D02AA237B24F70039CC77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F6D02A8237B24F70039CC77 /* NutriSafe */,
+				2F6D02BE237B24F80039CC77 /* NutriSafeTests */,
+				2F6D02C9237B24F80039CC77 /* NutriSafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6D02A7237B24F70039CC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6D02B9237B24F80039CC77 /* LaunchScreen.storyboard in Resources */,
+				2F6D02B6237B24F80039CC77 /* Assets.xcassets in Resources */,
+				2F6D02B4237B24F70039CC77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6D02BD237B24F80039CC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6D02C8237B24F80039CC77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CC12907D0436791770107BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NutriSafe/Pods-NutriSafe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NutriSafe/Pods-NutriSafe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NutriSafe/Pods-NutriSafe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99336899AC7D8D81E420AB8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NutriSafe-NutriSafeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64EB91EC2D6777E7D251567 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NutriSafe-NutriSafeTests/Pods-NutriSafe-NutriSafeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NutriSafe-NutriSafeTests/Pods-NutriSafe-NutriSafeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NutriSafe-NutriSafeTests/Pods-NutriSafe-NutriSafeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0715608AE1329FF69E8DC3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NutriSafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F6D02A5237B24F70039CC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F63AAD7238097F900BBA65F /* Photo.swift in Sources */,
+				4CD1C66F2380A342002C6412 /* Photo.swift in Sources */,
+				2F6D02B1237B24F70039CC77 /* SavedViewController.swift in Sources */,
+				4C672FFA23942E6600BCFE2C /* APIStrings.swift in Sources */,
+				2F485EEE2394CD120050B428 /* SelectViewController.swift in Sources */,
+				2F0F1FB5237C6D8900342A04 /* Diet.swift in Sources */,
+				2F63AADB2380AB4000BBA65F /* SearchResponseViewController.swift in Sources */,
+				4C672FFC2394355C00BCFE2C /* ProfileUpdateViewController.swift in Sources */,
+				2F485EF22394CE100050B428 /* AllergiesViewController.swift in Sources */,
+				2F0F1FB3237C6CFC00342A04 /* Profile.swift in Sources */,
+				2F485EEF2394CD120050B428 /* addProfileViewController.swift in Sources */,
+				2F6D02AD237B24F70039CC77 /* AppDelegate.swift in Sources */,
+				2F63AADA2380AB4000BBA65F /* DetailedViewController.swift in Sources */,
+				2F6671AD237C68340009EC9C /* Food.swift in Sources */,
+				2F6671AB237C66650009EC9C /* ProfileViewController.swift in Sources */,
+				2F6D02AF237B24F70039CC77 /* HomeViewController.swift in Sources */,
+				2F485EEC2394CD120050B428 /* ProfileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6D02BB237B24F80039CC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6D02C4237B24F80039CC77 /* NutriSafeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6D02C6237B24F80039CC77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6D02CF237B24F80039CC77 /* NutriSafeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F6D02C1237B24F80039CC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6D02A8237B24F70039CC77 /* NutriSafe */;
+			targetProxy = 2F6D02C0237B24F80039CC77 /* PBXContainerItemProxy */;
+		};
+		2F6D02CC237B24F80039CC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F6D02A8237B24F70039CC77 /* NutriSafe */;
+			targetProxy = 2F6D02CB237B24F80039CC77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F6D02B2237B24F70039CC77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6D02B3237B24F70039CC77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F6D02B7237B24F80039CC77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F6D02B8237B24F80039CC77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F6D02D1237B24F80039CC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F6D02D2237B24F80039CC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F6D02D4237B24F80039CC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569B4E8DC4E51166FBB83B26 /* Pods-NutriSafe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYN28H3YAM;
+				INFOPLIST_FILE = NutriSafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cse438.NutriSafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F6D02D5237B24F80039CC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA5EA1CB904DA6B267F757B /* Pods-NutriSafe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYN28H3YAM;
+				INFOPLIST_FILE = NutriSafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cse438.NutriSafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F6D02D7237B24F80039CC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E89B6CAEACEAC259A1D674E /* Pods-NutriSafe-NutriSafeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYN28H3YAM;
+				INFOPLIST_FILE = NutriSafeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cse438.NutriSafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriSafe.app/NutriSafe";
+			};
+			name = Debug;
+		};
+		2F6D02D8237B24F80039CC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3392479F917739291BB520C8 /* Pods-NutriSafe-NutriSafeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYN28H3YAM;
+				INFOPLIST_FILE = NutriSafeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cse438.NutriSafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriSafe.app/NutriSafe";
+			};
+			name = Release;
+		};
+		2F6D02DA237B24F80039CC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYN28H3YAM;
+				INFOPLIST_FILE = NutriSafeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cse438.NutriSafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriSafe;
+			};
+			name = Debug;
+		};
+		2F6D02DB237B24F80039CC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYN28H3YAM;
+				INFOPLIST_FILE = NutriSafeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cse438.NutriSafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NutriSafe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F6D02A4237B24F70039CC77 /* Build configuration list for PBXProject "NutriSafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6D02D1237B24F80039CC77 /* Debug */,
+				2F6D02D2237B24F80039CC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6D02D3237B24F80039CC77 /* Build configuration list for PBXNativeTarget "NutriSafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6D02D4237B24F80039CC77 /* Debug */,
+				2F6D02D5237B24F80039CC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6D02D6237B24F80039CC77 /* Build configuration list for PBXNativeTarget "NutriSafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6D02D7237B24F80039CC77 /* Debug */,
+				2F6D02D8237B24F80039CC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F6D02D9237B24F80039CC77 /* Build configuration list for PBXNativeTarget "NutriSafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6D02DA237B24F80039CC77 /* Debug */,
+				2F6D02DB237B24F80039CC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F6D02A1237B24F70039CC77 /* Project object */;
+}

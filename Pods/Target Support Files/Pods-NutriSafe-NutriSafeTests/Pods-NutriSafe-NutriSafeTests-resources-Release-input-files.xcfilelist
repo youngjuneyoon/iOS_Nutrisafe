@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-NutriSafe-NutriSafeTests/Pods-NutriSafe-NutriSafeTests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/BarcodeScanner.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/Localization.bundle
